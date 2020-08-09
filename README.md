@@ -3,6 +3,8 @@
 ## What it does: 
 Our project aims to match volunteers with people at higher risk for severe illness due to COVID-19 in order to fulfill basic services such as grocery delivery and tutoring. 
 
+## Note: Please download the HelpingHands.zip file to run the web application on your computer!
+
 ## Inspiration: Forever in history books to come, COVID-19 will mark the year of 2020. The incredibly destructive pandemic made entire social and economic structures crumble. With social distancing in most of the world, communities and personal feelings of connection felt lost. Under quarantine orders, the already overworked middle class was unable to work. Amidst all the chaos, particular groups of individuals face higher risks and stakes associated with a potential contraction of COVID-19 and thus must take extra precautions to limit exposure. Among these groups include adults 65 and older, individuals with respiratory diseases, those with diabetes, and more.
 
 ## How we built it: Dividing up the project into three modules, each team member took a crash course in back-end microservices, database management, and front-end web development. We built APIs that when invoked with information from someone seeking help, would add their name to a database. Similarly, another API adds volunteer information to its respective database. By parsing the database, we matched up volunteers and individuals needing assistance based on criteria such as services requested/offered and location relative to each other and returned that list to the volunteer who may fulfill the request.
